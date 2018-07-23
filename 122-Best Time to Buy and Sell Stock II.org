@@ -36,10 +36,17 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 class Solution(object):
     def maxProfit(self, prices):
         """
-        :type prices: List[int]
-        :rtype: int
+        :param prices: List[int]
+        :return: int
         """
-        pass
+        res, i = 0, 0
+        while i < len(prices):
+            j = i
+            while j + 1 < len(prices) and prices[j + 1] > prices[j]:
+                j += 1
+            res += prices[j] - prices[i]
+            i = j + 1
+        return res
 #+END_SRC
 
 
