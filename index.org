@@ -1,0 +1,5 @@
+#+SETUPFILE: setup.org
+#+TITLE: 生活啊，不就是这样吗
+
+这里是一些 [[file:sitemap.org][leetcode sitemap]] 的刷题记录 
+

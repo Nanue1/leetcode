@@ -1,4 +1,6 @@
-* Best Time to Buy and Sell Stock II
+#+SETUPFILE: setup.org
+#+TITLE: 122.Best Time to Buy and Sell Stock II
+
 
 Say you have an array for which the ith element is the price of a given stock on day i.
 
@@ -31,11 +33,16 @@ Output: 0
 Explanation: In this case, no transaction is done, i.e. max profit = 0.
 #+END_EXAMPLE
 
+
 #+BEGIN_CENTER
-[[./images/122-s.png]]
+
+#+CAPTION: Peak Valley Approach
+[[./images/122_maxprofit_1.PNG]]
+
 #+END_CENTER
 
 
+~python~ 
 
 #+BEGIN_SRC python
 class Solution(object):
@@ -54,6 +61,7 @@ class Solution(object):
         return res
 #+END_SRC
 
+java
 
 #+BEGIN_SRC java
 class Solution {
