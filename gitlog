@@ -1,0 +1,9 @@
+ git init
+ git branch gh-pages
+ git add -A .
+ git branch gh-pages
+ git commit -m "master"
+ git branch gh-pages
+ git checkout gh-pages
+ git remote add origin https://github.com/Nanue1/leetcode.git
+ git push origin gh-pages
