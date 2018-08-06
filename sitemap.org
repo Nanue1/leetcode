@@ -1,5 +1,7 @@
 #+TITLE: Sitemap
 
 - [[file:122-Best Time to Buy and Sell Stock II.org][122.Best Time to Buy and Sell Stock II]]
+- [[file:199-Binary Tree Right Side View.org][199. Binary Tree Right Side View]]
+- [[file:815-Bus Routes.org][815. Bus Routes]]
 - [[file:setup.org][setup]]
 - [[file:index.org][生活啊，不就是这样吗]]

@@ -1,43 +1,9 @@
-#+SETUPFILE: setup.org
-#+TITLE: 199. Binary Tree Right Side View
+package leetcode;
 
-Given a binary tree, imagine yourself standing on the right side of it, 
+import java.util.*;
 
-return the values of the nodes you can see ordered from top to bottom.
 
-Example:
-
-#+BEGIN_EXAMPLE
-
-Input: [1,2,3,null,5,null,4]
-Output: [1, 3, 4]
-Explanation:
-
-   1            <---
- /   \
-2     3         <---
- \     \
-  5     4       <---
-#+END_EXAMPLE
-
-* Depth-First Search
-#+CAPTION: depth-first
-#+ATTR_HTML: :width 40% :height 40%    
-[[./images/199_depth_first.png]]
-
-java
-
-#+BEGIN_SRC java
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
-class Solution {
+public class Code_199 {
     public List<Integer> rightSideView(TreeNode root) {
         HashMap<Integer, Integer> rightSideViewMap = new HashMap<Integer, Integer>();
         int max_depth = -1;
@@ -71,18 +37,3 @@ class Solution {
 
     }
 }
-
-#+END_SRC
-
-python 
-
-#+BEGIN_SRC 
-
-#+END_SRC
-* Traversal
-
-python
-
-#+BEGIN_SRC 
-
-#+END_SRC
